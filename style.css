@@ -11,8 +11,8 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  font-size: 15px; 
-  background: rgb(87, 97, 130); 
+  font-size: 20px; 
+  background: rgb(255, 255, 255); 
 }
 
 .grid-container {
@@ -148,8 +148,8 @@ aside {
   border: rgb(208, 209, 216) 1px; 
   border-radius: 10px; 
   border-style: ridge;  
-  background: rgb(87, 97, 130); 
-  color: whitesmoke;
+  background: rgb(255, 255, 255); 
+  color: black;
 }
 
 section {
@@ -296,6 +296,7 @@ section img {
   }
 
 }
+
 
 /* Tablest portrait mode  */
 @media only screen and (min-width: 768px) and (max-width: 991px)
