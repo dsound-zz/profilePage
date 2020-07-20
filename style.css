@@ -112,7 +112,7 @@ header {
 
 #github:hover {
   background: white; 
-  border-radius: 50%;  
+  border-radius: 0%;  
 }
 
 #resume {
@@ -145,8 +145,7 @@ header {
 section,
 aside {
   font-family: "Raleway", sans-serif;
-  border: rgb(208, 209, 216) 1px; 
-  border-radius: 10px; 
+  border: rgb(208, 209, 216) 1px;  
   border-style: ridge;  
   background: rgb(255, 255, 255); 
   color: black;
