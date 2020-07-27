@@ -93,8 +93,6 @@ header {
   display: absolute; 
   height: 2.75em;
   width: auto;
-  
-
 }
 
 #linkedin:hover {
@@ -172,6 +170,11 @@ aside {
   padding-top: 3em; 
   padding-right: 2em; 
 
+}
+
+h6 {
+  font-size: 0.60em;
+  text-align: center; 
 }
 
 /* #coolthings {
