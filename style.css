@@ -2,6 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR|Raleway&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 
 * {
   margin: 0;
@@ -10,7 +11,7 @@
 }
 
 body {
-  font-family: "Raleway", sans-serif;
+   font-family: 'Montserrat', sans-serif;
   font-size: 20px; 
   background: rgb(255, 255, 255); 
 }
@@ -69,7 +70,7 @@ header {
    position: relative; 
    visibility: visible; 
    padding-right: 4em; 
-   right: 5em;  
+   right: 7em;  
    top: 2em; 
    height: 25em; 
    width: 25em; 
@@ -142,7 +143,7 @@ header {
 
 section,
 aside {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   border: rgb(208, 209, 216) 1px;  
   border-style: ridge;  
   background: rgb(255, 255, 255); 
