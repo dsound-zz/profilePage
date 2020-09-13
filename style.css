@@ -12,7 +12,7 @@
 
 body {
    font-family: 'Montserrat', sans-serif;
-  font-size: 20px; 
+  font-size: 3em; 
   background: rgb(255, 255, 255); 
 }
 
@@ -200,10 +200,11 @@ footer {
   font-family: sans-serif;
   background: url(" src/photos/Dark Skies.png") no-repeat;
   color: rgba(245, 245, 245, 0.945);
+  max-width: 100%;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: 10px 0;
+  padding: 2em 0;
 }
 
 section img {
@@ -224,7 +225,7 @@ section img {
 }
 
 .tech {
-  font-size: 25px; 
+  font-size: 3em; 
 }
 
 
@@ -376,7 +377,7 @@ section img {
 @media only screen and (min-width: 1025px) and (max-width: 1992px)
 {
    body {
-    font-size: 1.75em;
+    font-size: 4em;
   }
 
   #header-text {
@@ -405,6 +406,8 @@ section img {
   .upsidedown-aside {
     grid-column: 2 / span 1;
   }
+
+ 
 }
 
 
