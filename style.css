@@ -412,49 +412,4 @@ section img {
  
 }
 
-  /* Very Large screens */
-  @media only screen and (min-width: 2550px) and (max-width: 1440px)
-  {
-    body {
-      font-size: 6em;
-    }
-
-    #header-text {
-      padding-right: 6em; 
-    }
-    .coder-cards {
-      grid-column: 1 / span 1;
-    }
-
-    .coder-cards-aside {
-      grid-column: 2 / span 1;
-    }
-
-    .faunagram {
-      grid-column: 1 / span 1;
-    }
-
-    .faunagram-aside {
-      grid-column: 2 / span 1;
-    }
-
-    .upsidedown {
-      grid-column: 1 / span 1;
-    }
-
-    .upsidedown-aside {
-      grid-column: 2 / span 1;
-    }
-
-    #protip {
-      font-size: 2em; 
-    }
-
-    #resume {
-      height: 7em; 
-    }
-
  
-}
-
-
