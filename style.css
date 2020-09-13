@@ -376,7 +376,7 @@ section img {
 }
  
   /* Large screens */
-  @media only screen and (min-width: 1025px) and (max-width: 1992px)
+  @media only screen and (min-width: 1025px) and (max-width: 1440px)
   {
     body {
       font-size: 4em;
