@@ -116,14 +116,14 @@ header {
 
 #resume {
   display: absolute; 
-  height: 4em; 
+  height: 6em; 
   width: auto;
   size: 10px; 
 }
 
 #resume:link {
   text-decoration: none;
-  color: wheat;
+  color: black;
 }
 
 #resume:visited {
@@ -198,9 +198,9 @@ h6 {
 
 footer {
   font-family: sans-serif;
-  background: url(" src/photos/Dark Skies.png") no-repeat;
+  max-width: auto;
+  background-color: rgba(74, 114, 189, 0.831);
   color: rgba(245, 245, 245, 0.945);
-  max-width: 100%;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -225,7 +225,9 @@ section img {
 }
 
 .tech {
-  font-size: 3em; 
+  font-size: 2em; 
+  color: black;
+  padding-bottom: 1em; 
 }
 
 
@@ -373,39 +375,84 @@ section img {
   }
 }
  
-/* Large screens */
-@media only screen and (min-width: 1025px) and (max-width: 1992px)
-{
-   body {
-    font-size: 4em;
-  }
+  /* Large screens */
+  @media only screen and (min-width: 1025px) and (max-width: 1992px)
+  {
+    body {
+      font-size: 4em;
+    }
 
-  #header-text {
-    padding-right: 6em; 
-  }
-  .coder-cards {
-    grid-column: 1 / span 1;
-  }
+    #header-text {
+      padding-right: 6em; 
+    }
+    .coder-cards {
+      grid-column: 1 / span 1;
+    }
 
-  .coder-cards-aside {
-    grid-column: 2 / span 1;
-  }
+    .coder-cards-aside {
+      grid-column: 2 / span 1;
+    }
 
-  .faunagram {
-    grid-column: 1 / span 1;
-  }
+    .faunagram {
+      grid-column: 1 / span 1;
+    }
 
-  .faunagram-aside {
-    grid-column: 2 / span 1;
-  }
+    .faunagram-aside {
+      grid-column: 2 / span 1;
+    }
 
-  .upsidedown {
-    grid-column: 1 / span 1;
-  }
+    .upsidedown {
+      grid-column: 1 / span 1;
+    }
 
-  .upsidedown-aside {
-    grid-column: 2 / span 1;
-  }
+    .upsidedown-aside {
+      grid-column: 2 / span 1;
+    }
+
+ 
+}
+
+  /* Very Large screens */
+  @media only screen and (min-width: 2550px) and (max-width: 1440px)
+  {
+    body {
+      font-size: 6em;
+    }
+
+    #header-text {
+      padding-right: 6em; 
+    }
+    .coder-cards {
+      grid-column: 1 / span 1;
+    }
+
+    .coder-cards-aside {
+      grid-column: 2 / span 1;
+    }
+
+    .faunagram {
+      grid-column: 1 / span 1;
+    }
+
+    .faunagram-aside {
+      grid-column: 2 / span 1;
+    }
+
+    .upsidedown {
+      grid-column: 1 / span 1;
+    }
+
+    .upsidedown-aside {
+      grid-column: 2 / span 1;
+    }
+
+    #protip {
+      font-size: 2em; 
+    }
+
+    #resume {
+      height: 7em; 
+    }
 
  
 }
