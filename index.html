@@ -6,138 +6,151 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
 
     <title>Demian Sims</title>
 </head>
 
 <body>
     <header>
-        <div id="header-text">
+        <div class="title">
             <h1>Demian Sims</h1><br />
             <h5><em>Coder | Developer | Designer</em></h5><br />
             <em>From musician to developer: After a great career
                 in music, I've made the
                 exciting transition to software engineer.
             </em><br />
-            <div id="icons">
-                <a href="https://github.com/dsound-zz" target="_blank">
-                    <img src="src/photos/GitHub-Mark-64px.png" alt="github link" id="github"></a>
-                <a href="https://www.linkedin.com/in/demiansims/" target="_blank">
-                    <img src="src/photos/sm-icons-linkedIn-In-tm.png" alt="linkedin link" id="linkedin"></a><br />
+        </div>
+        <div class="links">
+            <a href="https://github.com/dsound-zz" target="_blank">
+                <img src="src/photos/GitHub-Mark-64px.png" alt="github link"></a>
+            <a href="https://www.linkedin.com/in/demiansims/" target="_blank">
+                <img src="src/photos/sm-icons-linkedIn-In-tm.png" alt="linkedin link" style="width: 60%;"></a><br />
 
-            </div>
-            <div id="profile-pic">
-                <!-- <img src="src/photos/IMG_5532.JPG" alt="Demian Sims image"> -->
-            </div>
+        </div>
+        <div class="profile-pic">
+            <img src="src/photos/IMG_5532-rotated.JPG" alt="Demian Sims image" width="400" height="auto">
+        </div>
     </header>
 
-    <div class="grid-container">
-                <section class="blog">
-                    <h2>50AndFullStack</h2><br />
-                    <a href="https://www.50andfullstack.com" target="_blank" class="site-image"><img
-                            src="src/photos/Screen Shot 2020-08-06 at 1.50.27 PM.png" alt="50andfullstack"></a>
-                </section>
-                <aside class="blog">
-                    <h5 class="tech-description" style="padding-top:4em;"><em>GatsbyJS | Contentful | Netify </em>
-                    </h5>
-                    <h5 class="app-description">It was time to make a tech blog from scratch and owning my age instead of hding 
-                        from it given inherent agism in tech. A great opportunity to learn another Javascript framerwork in GatsbyJS and 
-                        use a CMS with Contenful. First time deploying to Netify.  
-                    </h5>
-                </aside>
-         <section class="mikesArt">
-             <h2>Mike Sims Art</h2><br />
-             <a href="https://dsound-zz.github.io/mikes-portfolio/" target="_blank" class="site-image"><img
-                     src="src/photos/IMG_1129.jpeg" alt="mike-sims-art"></a>
-         </section>
-         <aside class="mikesArt">
-             <h5 class="tech-description" style="padding-top:4em;"><em>HTML | CSS </em>
-             </h5>
-             <h5  class="app-description">Built this site for my brother and his great art. Very simple for now. Might 
-                 get more comlex later just for some button and forms. 
-             </h5>
-         </aside>
-         <section class="dashboard">
-             <h2>TML DASHBOARD</h2><br />
-             <a href="https://still-fortress-46310.herokuapp.com/" target="_blank" class="site-image"><img
-                     src="src/photos/Screen Shot 2020-06-12 at 4.56.19 PM.png" alt="tml-dashboard"></a>
-         </section>
-         <aside class="dashboard">
-             <h5  class="tech-description" style="text-align:center;"><em>Rails 6 | React | Redux | React-Router | React Datepicker | MomentJS | Heroku</em>
-             </h5 >
-             <h5  class="app-description">This was a project I was building for TML Information Services. It pipes in 
-                 status data from the 50 states and territories regarding MOVr (Motor Vehical Data) for background checks. 
-                 It informs both employees and public users the current status of services. Known outages and notes can 
-                 be created, edited or deleted. Deployment involved AWS serverless Lambdas and a static S3 React app. This helped to cut costs from an Elastic Beanstalk instance. This demo 
-                 is on Heroku for demo purposes. Feel free to play around with it. 
-             </h5 >
-         </aside>
-        <section class="coder-cards">
+    <div class="container">
+        <div class="site">
+            <h2>50AndFullStack</h2><br />
+            <a href="https://www.50andfullstack.com" target="_blank"><img
+                    src="src/photos/Screen Shot 2020-08-06 at 1.50.27 PM.png" alt="50andfullstack" width="400"
+                    height="auto"></a>
+
+        </div>
+        <div class="aside">
+            <h5><em>GatsbyJS | Contentful | Netify </em>
+            </h5>
+            <h6>It was time to make a tech blog from scratch and owning my age instead of hding
+                from it given inherent agism in tech. A great opportunity to learn another Javascript framerwork in
+                GatsbyJS and
+                use a CMS with Contenful. First time deploying to Netify.
+            </h6>
+        </div>
+        <hr>
+        <div class="site">
+            <h2>Mike Sims Art</h2><br />
+            <a href="https://dsound-zz.github.io/mikes-portfolio/" target="_blank"><img src="src/photos/IMG_1129.jpeg"
+                    alt="mike-sims-art" width="400" height="auto"></a>
+        </div>
+        <div class="aside">
+            <h5><em>HTML | CSS </em>
+            </h5>
+            <h6>Built this site for my brother and his great art. Very simple for now. Might
+                get more comlex later just for some button and forms.
+            </h6>
+        </div>
+        <hr>
+        <div class="site">
+            <h2>TML DASHBOARD</h2><br />
+            <a href="https://still-fortress-46310.herokuapp.com/" target="_blank"><img
+                    src="src/photos/Screen Shot 2020-06-12 at 4.56.19 PM.png" alt="tml-dashboard" width="400"
+                    height="auto"></a>
+        </div>
+        <div class="aside">
+            <h5><em>Rails 6 | React | Redux | React-Router | React Datepicker | MomentJS | Heroku</em>
+            </h5>
+            <h6>This was a project I was building for TML Information Services. It pipes in
+                status data from the 50 states and territories regarding MOVr (Motor Vehical Data) for background
+                checks.
+                It informs both employees and public users the current status of services. Known outages and notes can
+                be created, edited or deleted. Deployment involved AWS serverless Lambdas and a static S3 React app.
+                This helped to cut costs from an Elastic Beanstalk instance. This demo
+                is on Heroku for demo purposes. Feel free to play around with it.
+            </h6>
+        </div>
+        <hr>
+        <div class="site">
             <h2>Coder Cards</h2><br />
-            <a href="https://coder-cards-app.herokuapp.com/" target="_blank" class="site-image"><img
-                    src="src/photos/Screen Shot 2020-07-20 at 4.51.09 PM.png" alt="codercards"></a>
-        </section>
-        <aside class="coder-cards-aside">
-            <h5  class="tech-description" style="text-align:center"><em>HTML5 | CSS3 | React | Rails | JWT | Bcrypt | Heroku</em>
-            </h5 >
-            <h6>(Give it a moment to load in since frontend and backend are on Heroku)</h6>
-            <h5  class="app-description">A nifty flash card app with a coding theme for beginners and OG's alike to hone
+            <a href="https://coder-cards-app.herokuapp.com/" target="_blank"><img
+                    src="src/photos/Screen Shot 2020-07-20 at 4.51.09 PM.png" alt="codercards" width="400"
+                    height="auto"></a>
+        </div>
+        <div class="aside">
+            <h5><em>HTML5 | CSS3 | React | Rails | JWT | Bcrypt | Heroku</em>
+            </h5>
+            <h6>A nifty flash card app with a coding theme for beginners and OG's alike to hone
                 their
                 skills
                 in all things coding terms, syntax and scripts, or anything you want!
-                A user can create an account, decks and cards to edit or delete at anytime. I went looking 
-                    for a flashcard app to help studying code and remember that I know how to code.
-                </h5 >
-        </aside>
-        <section class="faunagram">
-            <h2>Faunagram</h2><br />
-            <a href="https://www.youtube.com/watch?v=3c2oa2vBglw" target="_blank" class="site-image"><img
-                    src="src/photos/Screen Shot 2019-06-01 at 12.58.07 PM.png" alt="faunagram"></a>
+                A user can create an account, decks and cards to edit or delete at anytime. I went looking
+                for a flashcard app to help studying code and remember that I know how to code.
+            </h6>
+            <div class="load-tip">(Give it a moment to load in since frontend and backend are on Heroku)
+            </div>
 
-        </section>
-        <aside class="faunagram-aside">
-            <h5  class="tech-description"><em>HTML5 | CSS3 | React | React Routes | Semantic-UI-React | Rails | JWT | Bcrypt | Active | Heroku
-                    Storage | AWS</em></h5 >
-            <h5  class="app-description" id="faunagram-desc">An app where users can share all things urban wildlife. As
+        </div>
+        <hr>
+        <div class="site">
+            <h2>Faunagram</h2><br />
+            <a href="https://www.youtube.com/watch?v=3c2oa2vBglw" target="_blank"><img
+                    src="src/photos/Screen Shot 2019-06-01 at 12.58.07 PM.png" alt="faunagram" width="400"
+                    height="auto"></a>
+
+        </div>
+        <div class="aside">
+            <h5><em>HTML5 | CSS3 | React | React Routes | Semantic-UI-React | Rails | JWT | Bcrypt | Active | Heroku
+                    Storage | AWS</em></h5>
+            <h6>An app where users can share all things urban wildlife. As
                 our cities clean
                 up, wild life returns and one can see some very interesting creatures. Of course your common squirrel,
                 Robin, pigeon and rat are welcome too!
-            </h5 >
-
-        </aside>
-
-
-        <section class="upsidedown">
+            </h6>
+        </div>
+        <hr>
+        <div class="site">
             <h2>The Upside Down</h2><br />
-            <a href="https://dsound-zz.github.io/the-upside-down-frontend/" target="_blank" class="site-image"><img
-                    src="src/photos/Screen Shot 2020-07-20 at 6.58.19 PM.png"></a>
-        </section>
-        <aside class="upsidedown-aside">
-            <h5  class="tech-description" id="upsidedown" style="text-align:center"><em>HTML5 | CSS3 | Javascript | Heroku
-                    Rails | Waffles</em></h5 >
-            <h5  class="app-description">Ready to enter The Upside Down? The Upside Down is a game inspired by the
+            <a href="https://dsound-zz.github.io/the-upside-down-frontend/" target="_blank"><img
+                    src="src/photos/Screen Shot 2020-07-20 at 6.58.19 PM.png" width="400" height="auto"></a>
+        </div>
+        <div class="aside">
+            <h5><em>HTML5 | CSS3 | Javascript | Heroku
+                    Rails | Waffles</em></h5>
+            <h6>Ready to enter The Upside Down? The Upside Down is a game inspired by the
                 Netflix TV series Stranger
                 Things,
                 featuring
                 two characters from the series: Eleven and Demogorgon. Wrote this with my Flatiron cohort, Joyce Kwon!
-            </h5 >
-            <div id="protip">
-                </h5 ><em>Pro tip: Use headphones for optimal experience!</em></div>
-        </aside>
+            </h6>
+            <div class="pro-tip">
+                <em>Pro tip: Use headphones for optimal experience!</em>
+            </div>
+        </div>
     </div>
 
     <footer>
-        <div class="tech" style="text-align:center">React - Redux - Javascript ES6 - Ruby on Rails - HTML5 - CSS3 - SQL - AWS</div>
-        
-              <a href="src/photos/Demian-Sims-Resume-2020.pdf"
-                id="resume" download> <img src="src/photos/icons8-resume-80.png" alt="resume link">
-            </a>
+        <div>HTML5 - CSS3 - Javascript ES6 - ReactJS - React Native - Redux - Ruby on Rails - SQL</div>
 
-            <h5  style="text-decoration: none">resume</h5 ></a>
+        <a href="src/photos/Demian-Sims-Resume-2020.pdf" download> <img src="src/photos/icons8-resume-80.png"
+                alt="resume link">
+        </a>
+
+        <h5>resume</h5></a>
         </div>
-        <h4> <a href="mailto:demiansims@gmail.com" id="email">demiansims@gmail.com</a></h4>
-        <div id='photo-credit'>Photo credit: David Laspina</div>
+        <h4> <a href="mailto:demiansims@gmail.com">demiansims@gmail.com</a></h4>
+        <div class="profile-photo-credit">Photo credit: David Laspina</div>
     </footer>
 
 </body>

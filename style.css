@@ -2,7 +2,8 @@
 
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR|Raleway&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
 * {
   margin: 0;
@@ -11,410 +12,120 @@
 }
 
 body {
-   font-family: 'Montserrat', sans-serif;
-  font-size: 3em; 
-  background: rgb(255, 255, 255); 
-}
-
-.grid-container {
-  justify-content: center;
-  align-content: center;
-  margin: auto;
-  width: 100vw;
-  padding: 1em;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
-  grid-gap: 1em; 
-}
-
-header,
-footer {
-  width: 100vw;
-  
+  font-family: "Montserrat", sans-serif;
+  background: rgb(255, 255, 255);
+  margin: 2em;
+  padding: 2em;
 }
 
 header {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: rgb(188, 207, 238);
+  background-image: linear-gradient(rgb(139, 142, 158), rgb(255, 255, 255));
+  border: palegoldenrod solid 1px;
+}
+
+.title {
+  width: 30rem;
+  font-size: 30px;
+  margin-left: 2px; 
+  padding-top: 5rem;
+}
+
+.links {
+  display: flex;
+  align-self: flex-end;
+  padding-left: 60px;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.profile-pic {
+  padding: 1rem;
+}
+
+.profile-pic {
+  opacity: 0.8;
+  box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset; 
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   justify-content: space-evenly;
-  height: 20em; 
-  margin-bottom: 1em;
-  position: relative;
-  padding: 1em;
-  font-family: "Raleway", sans-serif;
-  color: rgba(240, 229, 229, 0.959);
-  background: url("src/photos/Dark Skies.png") no-repeat,
-    url("src/photos/IMG_5532-rotated.jpg") no-repeat;
-  background-position: left 80%, right top 40%;
-  background-size: 100%, 40%, auto;
-  background-blend-mode: lighten;
+  padding: 50px;
+  background-color:rgba(249, 250, 253, 0.959)
 }
 
-#profile-pic {
-  height: 17em;
-  width: auto;
-  padding: 2em;
-  position: relative;
-  transform: rotate(270deg);
-}
-
-/* header #profile-pic img {
-  max-height: 100%; 
-  mix-blend-mode: lighten; 
-} */
-
-#header-text {
-  /* overflow-wrap: break-word;
-  word-wrap: break-word; */
-   position: relative; 
-   visibility: visible; 
-   padding-right: 4em; 
-   right: 7em;  
-   top: 2em; 
-   height: 25em; 
-   width: 25em; 
-}
-
-#linkedin {
-  height: 2.75em;
-  width: auto;
-}
-
-
-#icons {
-  display: flex;  
-  height: 4em; 
-  width: auto; 
-  margin-left: 16em;  
-  margin-top: 3em; 
-}
-
-#linkedin {
-  display: absolute; 
-  height: 2.75em;
-  width: auto;
-}
-
-#linkedin:hover {
-  height: 3em; 
-  width: auto; 
-}
-
-#github {
-  display: absolute; 
-  height: 3em;
-  width: auto;
-  margin-right: 1em;  
-}
-
-
-#github:hover {
-  background: white; 
-  border-radius: 50%;  
-}
-
-#resume {
-  display: absolute; 
-  height: 6em; 
-  width: auto;
-  size: 10px; 
-}
-
-#resume:link {
-  text-decoration: none;
-  color: black;
-}
-
-#resume:visited {
-  text-decoration: none;
-  color: rgba(220, 220, 220, 0.831); 
-}
-
-#email:link {
-  text-decoration: none;
-  color: wheat;
-}
-
-#email:visited {
-  text-decoration: none;
-  color: rgba(220, 220, 220, 0.831); 
-}
-
-section,
-aside {
-  font-family: 'Montserrat', sans-serif;
-  border: rgb(208, 209, 216) 1px;  
-  border-style: ridge;  
-  background: rgb(255, 255, 255); 
-  color: black;
-}
-
-section {
-  /* max-width: 100%; */
-  height: auto;
-  align-items: center;
-  justify-content: center;
+.site {
+  margin: 50px;
+  padding-top: 40px;
+  font-size: 30px;  
   text-align: center;
-  position: relative;
-  padding-top: 0.88em; 
-  
 }
 
-aside {
-  /* max-width: 100%; */
-  height: auto;
-  position: relative;
-  align-items: left;
-  justify-content: center;
-  justify-self: center; 
-  padding-top: 3em; 
-  padding-right: 2em; 
-
+.aside {
+  display: block;
+  width: 20em;
+  margin: 50px;
+  padding-top: 150px;
+  font-size: 30px;  
+  padding-left: 5px;
 }
 
-h6 {
-  font-size: 0.60em;
-  text-align: center; 
+.aside h5 {
+  padding-bottom: 30px;
+  font-weight: 'bold';
 }
 
-/* #coolthings {
-    color: lightgoldenrodyellow;
-} */
-
-.tech-description {
-  padding-top: 0.50em;
-  padding-left: 1em; 
-  text-align: center; 
-  justify-self: center; 
+.pro-tip {
+  text-align: cetner; 
+  font-size: 20px;
+  padding-top: 10px;
 }
-
-.app-description {
-  padding-top: 3em;
-  padding-left: 1em;
-}
-
-
 
 footer {
-  font-family: sans-serif;
-  max-width: auto;
-  background-color: rgba(74, 114, 189, 0.831);
-  color: rgba(245, 245, 245, 0.945);
-  align-items: center;
-  justify-content: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   text-align: center;
-  padding: 2em 0;
+  padding: 10px;
+  background-color: rgb(188, 207, 238);
+  background-image: linear-gradient(rgb(139, 142, 158), rgb(255, 255, 255));
+  border: palegoldenrod solid 1px;
 }
 
-section img {
-  max-width: 100%;
-  height: auto;
-}
-
-#protip {
-  padding-top: 1em;
-  padding-left: 1em;
-  font-size: 1em;
-  font-weight: bold;
-}
-
-#photo-credit {
+.profile-photo-credit {
   font-size: 10px;
-  color: black; 
 }
 
-.tech {
-  font-size: 2em; 
-  color: black;
-  padding-bottom: 1em; 
+.load-tip {
+  font-size: 15px;
+  padding-top: 10px;
 }
 
-
-/* Smart phones portrait */
-@media only screen and (min-width: 320px) and (max-width: 479px)
-{  
-  body {
-    font-size: 0.4em;
-  }
-  .grid-container {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .coder-cards {
-    grid-column: span 1;
-  }
-
-  .coder-cards-aside {
-    grid-column: span 1;
-  }
-
-  .faunagram {
-    grid-column: span 1;
-  }
-
-  .faunagram-aside {
-    grid-column: span 1;
-  }
-
-  .upsidedown {
-    grid-column: span 1;
-  }
-
-  .upsidedown-aside {
-    grid-column: span 1;
-  }
- }
-
- /* smartphone landscape  */
-@media only screen and (min-width: 480px) and (max-width: 767px)
-{ 
-   body {
-    font-size: 0.95em;
-  }
-   #header-text {
-    padding-right: 4em; 
-  }
-  .grid-container {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .coder-cards {
-    grid-column: span 1;
-  }
-
-  .coder-cards-aside {
-    grid-column: span 1;
-  }
-
-  .faunagram {
-    grid-column: span 1;
-  }
-
-  .faunagram-aside {
-    grid-column: span 1;
-  }
-
-  .upsidedown {
-    grid-column: span 1;
-  }
-
-  .upsidedown-aside {
-    grid-column: span 1;
-  }
-
+hr {
+    border-top: 3px double #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 100%;
 }
 
+/* hr:after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+} */
 
-/* Tablest portrait mode  */
-@media only screen and (min-width: 768px) and (max-width: 991px)
-{ 
-   body {
-    font-size: 1.4em;
-  }
-   #header-text {
-    padding-right: 5em; 
-  }
-  .grid-container {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .coder-cards {
-    grid-column: span 1;
-  }
 
-  .coder-cards-aside {
-    grid-column: span 1;
-  }
 
-  .faunagram {
-    grid-column: span 1;
-  }
 
-  .faunagram-aside {
-    grid-column: span 1;
-  }
 
-  .upsidedown {
-    grid-column: span 1;
-  }
 
-  .upsidedown-aside {
-    grid-column: span 1;
-  }
-}
-
-/* Tablet landscape and desktop  */
-@media only screen and (min-width: 992px) and (max-width: 1660px)
-{
-   body {
-    font-size: 1.4em;
-  }
-   #header-text {
-    padding-right: 5em; 
-  }
-  .coder-cards {
-    grid-column: 1 / span 1;
-  }
-
-  .coder-cards-aside {
-    grid-column: 2 / span 1;
-  }
-
-  .faunagram {
-    grid-column: 1 / span 1;
-  }
-
-  .faunagram-aside {
-    grid-column: 2 / span 1;
-  }
-
-  .upsidedown {
-    grid-column: 1 / span 1;
-  }
-
-  .upsidedown-aside {
-    grid-column: 2 / span 1;
-  }
-}
- 
-  /* Large screens */
-  @media only screen and (min-width: 1661px) and (max-width: 2550px)
-  {
-    body {
-      font-size: 4em;
-    }
-
-    header { 
-      max-width: auto;
-      font-size: 0.5em; 
-    }
-
-    #header-text {
-      padding-right: 6em; 
-    }
-    .coder-cards {
-      grid-column: 1 / span 1;
-    }
-
-    .coder-cards-aside {
-      grid-column: 2 / span 1;
-    }
-
-    .faunagram {
-      grid-column: 1 / span 1;
-    }
-
-    .faunagram-aside {
-      grid-column: 2 / span 1;
-    }
-
-    .upsidedown {
-      grid-column: 1 / span 1;
-    }
-
-    .upsidedown-aside {
-      grid-column: 2 / span 1;
-    }
-
- 
-}
-
- 
